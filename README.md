@@ -1,4 +1,4 @@
-²> christojohn.com is hosted at github.io
+> christojohn.com is hosted at github.io
 
 <meta http-equiv="refresh" content="0; url=main/main.html">
 
