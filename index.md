@@ -1,6 +1,6 @@
 > christojohn.com is hosted at github.io
 
-<meta http-equiv="refresh" content="0; url=main/main.html">
+<meta http-equiv="refresh" content="0; url="./Main/main.html">
 
 
 [Click here](./main/main.html) if not redirected automatically in 5 seconds...
