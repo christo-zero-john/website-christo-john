@@ -9,6 +9,9 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 [click here](./Main/main.html) to get redirected...
 
 -->
+
+<meta http-equiv="refresh" content="5;url=https://christojohn1030.github.io/christo-john-website-repo/main/main.html">
+
 <img src="./assets/sitepics/Header%20Logo.png" width="198" height="111"><br><br>
 
 
