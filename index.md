@@ -15,10 +15,17 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 Redirecting to christojohn.com<br><br>
 <img src='./assets/sitevid/redirect.gif'>
 
-### Best regards : Christo John
+#
 
-# Powered By
+<footer>
+
+###  ***Best regards : Christo John*** 
+#
+
+<h2> Powered By</h2>
+
 
             
 <img src='./assets/sitepics/tesnic1.png' width="100" height="100" alt="Tesnic Logo">
 
+</footer>
