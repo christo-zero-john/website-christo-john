@@ -11,7 +11,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 -->
 
 
-<meta http-equiv="refresh" content="5;url=https://christojohn1030.github.io/christo-john-website-repo/Main/main.html">
+<meta http-equiv="refresh" content="5;url=../sMain/main.html">
 
 <fieldset>
 
@@ -32,6 +32,7 @@ Redirecting to christojohn.com<br><br>
 <footer>
 
 ###  ***Best regards : Christo John*** 
+
 #
 
 <h2> Powered By</h2>
