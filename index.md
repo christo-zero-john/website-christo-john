@@ -11,7 +11,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 -->
 
 
-<meta http-equiv="refresh" content="5;url=../sMain/main.html">
+<meta http-equiv="refresh" content="5;url=./Main/main.html">
 
 <fieldset>
 
