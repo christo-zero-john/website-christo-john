@@ -90,14 +90,22 @@ img
 .borderstyle2   /* used for main page paragraf : hello guys.... full section*/
 {
     border:2px groove deepskyblue;
-    border-start-end-radius: 50%;
-    border-start-start-radius: 50%;
-    padding-top: 50px;
-    margin:5px;
+    border-start-end-radius: 30%;
+    border-start-start-radius: 30%;
+    padding-top: 25px;
+    margin-left:20%;
+    margin-right: 20%;
     margin-top:15px;
     background-color:rgba(219, 226, 11, 0.223);
 
     
+}
+
+.emptydiv1  /*Forms the line inside the main paragraf's box */
+{
+    border-top:2px dotted greenyellow;
+    border-radius: 50%;
+    margin:20px;
 }
 
 .headerprofileimage
@@ -110,12 +118,7 @@ img
     
 }
 
-.emptydiv1  /*Forms the line inside the main paragraf's box */
-{
-    border-top:2px double greenyellow;
-    border-radius: 50%;
-    margin:20px;
-}
+
 
 .externlinkimages
 {
