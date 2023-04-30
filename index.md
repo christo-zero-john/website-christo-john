@@ -2,6 +2,16 @@
 title: "Christo John"
 ---
 
+<style>
+    .imgstyle1
+    {
+        width:150px;
+        height:100px;
+        
+    }
+
+
+</style>
 <!--
 Welcome to GitHub.
 This is just a GitHub interface before redirection to [www.christojohn.com](./Main/main.html)
@@ -15,7 +25,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 
 <fieldset>
 
-<img src="./assets/sitepics/Header%20Logo.png" width="auto" height="auto"><br><br>
+<img class ="imgstyle1" src="./assets/sitepics/Header%20Logo.png" width="auto" height="auto"><br><br>
 
 </fieldset>
 
