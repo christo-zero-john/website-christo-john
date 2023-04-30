@@ -40,7 +40,7 @@ Redirecting to christo's page<br><br>
 
 #
 
-<footer>
+
 
 ###  ***Best regards : Christo John*** 
 
@@ -52,4 +52,3 @@ Redirecting to christo's page<br><br>
             
 <img src='./assets/sitepics/tesnic1.png' width="100" height="100" alt="Tesnic Logo">
 
-</footer>
