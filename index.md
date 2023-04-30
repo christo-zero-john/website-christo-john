@@ -31,7 +31,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 
 <fieldset>
 
-> If not redirected automatically <a href="./main/main"> click here </a>
+> If not redirected automatically <a href="../main/main"> click here </a>
 
 
 Redirecting to christo's page<br><br>
