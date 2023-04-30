@@ -21,7 +21,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 -->
 
 
-<meta http-equiv="refresh" content="0;url=./Main/main.html">
+<meta http-equiv="refresh" content="0;url=./main/main.html">
 
 <fieldset>
 
@@ -31,10 +31,11 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 
 <fieldset>
 
-> If not redirected automatically [click here](./Main/main.html)
+> If not redirected automatically <a href="./main/main"> click here </a>
 
 
-Redirecting to christojohn.com<br><br>
+Redirecting to christo's page<br><br>
+
 <img src='./assets/sitevid/redirect.gif'>
 
 #
