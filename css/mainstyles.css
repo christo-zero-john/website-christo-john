@@ -137,3 +137,51 @@ img
     margin:10px;
 
 }
+
+.footersection
+{
+    border:2px groove rosybrown;
+    padding:2%;
+    margin:1%;
+    
+}
+
+.footerparagraf
+{
+    color:gray;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8px;
+
+
+    
+   
+}
+
+.footerconnect
+{
+    background:rgba(0, 139, 253, 0.67);
+    border:3px double goldenrod;
+
+    color:rgb(0, 255, 208);
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:10px;
+  
+}
+
+.footerimages
+{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+
+.footerimagebuttons
+{
+    background:rgba(45, 55, 62, 0.67);
+    
+    border-radius: 30%;
+    padding:2px;
+   
+}
