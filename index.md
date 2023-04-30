@@ -7,6 +7,7 @@ title: "Christo John"
     {
         width:150px;
         height:100px;
+        margin-left:40%;
         
     }
 
@@ -33,6 +34,7 @@ This is just a GitHub interface before redirection to [www.christojohn.com](./Ma
 
 > If not redirected automatically <a href="../main/main"> click here </a>
 
+<br><br>
 
 Redirecting to christo's page<br><br>
 
