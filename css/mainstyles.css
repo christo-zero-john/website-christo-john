@@ -73,7 +73,7 @@ img
     color:rgb(211, 86, 209);
     text-align: left;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:15px;
+    font-size:12px;
     margin:10px;
 }
 
@@ -82,8 +82,9 @@ img
 
 .boxstyle1
 {
-    border:3px double white;
+    border:3px double rgb(255, 255, 255);
     padding:10px;
+   
 }
 
 .borderstyle1   /* used for header tags */
@@ -96,15 +97,20 @@ img
 
 }
 
+
+
 .borderstyle2   /* used for main page paragraf : hello guys.... full section*/
 {
     border:2px groove deepskyblue;
-    border-start-end-radius: 30%;
+   /* border-start-end-radius: 30%;
     border-start-start-radius: 30%;
-    padding-top: 25px;
-    margin-left:15%;
-    margin-right: 15%;
+   */ padding-top: 25px;
+
+    
+    margin-left:-21px;
+    margin-right:-21px;
     margin-top:15px;
+    margin-bottom:-28px;
     background-color:rgba(219, 226, 11, 0.223);
 
     
@@ -146,10 +152,15 @@ img
    margin-right :-21px;
    margin-left: -21px;
    margin-top: 3%;
-   margin-bottom: 3%;
-   padding:0px 3% 00px 35%;
+   margin-bottom: -10px;;
 
-    background-color: rgba(65, 105, 225, 0.275);
+   padding:0px 3% 00px 38%;
+
+   padding-left:auto;
+   padding-right:auto;
+
+
+background-color: rgba(65, 105, 225, 0.275);
    
 
 
@@ -164,6 +175,9 @@ img
     padding:2%;
     margin:1%;
     background-color: rgba(255, 235, 205, 0.141);
+    margin-left: -21px;
+    margin-right: -21px;
+    margin-bottom:-21px;
     
 }
 
