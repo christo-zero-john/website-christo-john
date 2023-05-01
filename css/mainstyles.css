@@ -15,6 +15,52 @@ img
     height:100px;
 }
 
+.headerprofileimage
+{
+    width:100px;
+    height:100px;
+  /*  border: 5px double rgb(238, 130, 130);
+
+    border-top-color: rgb(245, 3, 3);
+    border-top-width: 5px ;
+    border-top-style:double ;
+
+*/
+    border-right-color: rgb(0, 242, 255);
+    border-right-width:3px ;
+    border-right-style:double ;
+
+    border-bottom-color: rgb(0, 242, 255);
+    border-bottom-width: 2px;
+    border-bottom-style:dotted ;
+    
+    border-radius: 50%;
+    margin-bottom: -3.5px;
+    
+    
+}
+
+
+.hpid /*heade profile image div */
+{
+    border-right-color: rgb(255, 0, 0);
+    border-right-width:2px ;
+    border-right-style:dashed ;
+
+    border-bottom-color: rgb(255, 0, 0);
+    border-bottom-width: 2px;
+    border-bottom-style:groove;
+
+    border-radius:50%;
+    margin-left:46%;
+    margin-right: 42.7%;
+    padding-top: 1px;
+
+    
+    
+    
+
+}
 
 .headerheading
 {
@@ -123,26 +169,26 @@ img
     margin:20px;
 }
 
-.headerprofileimage
-{
-    width:100px;
-    height:100px;
-    border:2px double violet;
-    border-radius: 50%;
-    margin-left:46%;
-    
-}
+
 
 
 
 .externlinkimages
 {
-    width: 100px;;
+    width: 100px;
     height:100px;
-    border:2px double bisque;
+    border:3px groove rgb(255, 0, 0);
+    border-right-width: 1px;
+    border-right-style: dashed;
+    border-right-color: rgb(4, 250, 168);
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(4, 250, 168);
+
     border-radius: 15%;
     border-bottom-right-radius: 0px;
     margin:10px;
+    
 }
 
 .borextlim  /* border box for external link images*/
