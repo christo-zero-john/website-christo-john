@@ -1,0 +1,363 @@
+body
+{
+    background-color: black;
+    color:white;
+    font-size: 5px;
+
+    border:2px double royalblue;
+    padding:1%;
+    margin:2vw;
+    height:100vh;
+}
+
+
+.loading
+{
+    
+    
+    border:0px;
+    border-bottom: 1vh dotted rgb(3, 255, 255);
+   
+    margin:8px;
+    height:0.8vh;
+
+    animation-name: loading;
+    animation-duration:12s;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+.top-div-1
+{
+    margin-bottom:10px;
+}
+
+.header-image
+{
+    width:100px;
+    height:100px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border:2px double rgb(132, 195, 137);
+    border-radius: 50%;
+
+    animation-name: header-image;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+.header-text
+{
+    text-align: center;
+    display:block;
+
+    font-size: 3vh;
+    margin:10px;
+
+    
+   
+    animation-name: header-text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+.text-style
+{
+   
+    text-align: left;
+    color:rgba(253, 253, 253, 0.793);
+
+
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+}
+
+.text-border-style
+{
+    margin-left:5%;
+    margin-right: 1%;
+    
+
+    border:2px groove rgb(255, 4, 4);
+    padding:5px;
+    width:fit-content;
+
+    border-end-end-radius: 19px;
+    background:linear-gradient(45deg,rgba(255, 217, 0, 0.699),green,skyblue,rgba(255, 0, 255, 0.458));
+
+    opacity: 0.90;
+}
+
+
+.h1-1
+{
+    animation-name: h1-1;
+    animation-duration: 3s;
+}
+
+@keyframes h1-1
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    50%
+    {
+        opacity:0;
+    }
+
+    100%
+        {
+            opacity:1;
+        }
+
+}
+
+.h1-2
+{
+    animation-name: h1-2;
+    animation-duration: 5s;
+}
+
+@keyframes h1-2
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    50%
+    {
+        opacity:0;
+    }
+
+    100%
+        {
+            opacity:1;
+        }
+
+}
+
+
+.h1-3
+{
+    animation-name: h1-3;
+    animation-duration: 7s;
+}
+
+@keyframes h1-3
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    50%
+    {
+        opacity:0;
+    }
+
+    100%
+        {
+            opacity:1;
+        }
+
+}
+
+.h1-4
+{
+    animation-name: h1-1;
+    animation-duration: 9s;
+}
+
+@keyframes h1-4
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    75%
+    {
+        opacity:0;
+    }
+
+    100%
+        {
+            opacity:1;
+        }
+
+}
+
+.h1-5
+{
+    animation-name: h1-5;
+    animation-duration: 10s;
+}
+
+@keyframes h1-5
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    60%
+    {
+        opacity:0;
+    }
+
+    90%
+        {
+            opacity:1;
+        }
+
+}
+
+
+
+
+
+
+.h1-6
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+
+
+
+    text-align: left;
+    color:rgba(253, 253, 253, 0.793);
+
+
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    border:2px groove rgb(255, 4, 4);
+    padding:5px;
+    width:fit-content;
+
+    border-end-end-radius: 19px;
+    background:linear-gradient(45deg,rgba(255, 217, 0, 0.699),rgba(128, 0, 4, 0.896),rgb(132, 195, 137),rgba(0, 187, 255, 0.458));
+
+    opacity: 0.90;
+
+    animation-name: h1-6;
+    animation-duration: 17s;
+}
+
+@keyframes h1-6
+{
+    0%
+        {
+            opacity:0;
+        }
+
+    95%
+    {
+        opacity:0;
+    }
+
+    100%
+        {
+            opacity:1;
+        }
+
+}
+
+@keyframes loading
+{
+    0%
+    {
+        background-size: 0% auto;
+        border-bottom: 1vh dotted rgb(3, 255, 20);
+        width:0%;
+    }
+
+    50%
+    {
+        background-size: 50% auto;
+        border-bottom: 1vh dotted rgb(79, 3, 255);
+        width:50%;
+    }
+    100%
+    {
+        background-size: 100% auto;
+        border-bottom: 1vh dotted rgb(255, 3, 3);
+        width:98%;
+    }
+}
+
+a
+{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.635);
+    padding:4px;
+}
+
+@keyframes header-image
+{
+    0%
+    {
+        transform:rotate(0deg);
+    }
+
+    25%
+    {
+        transform:rotate(-60deg);
+    }
+
+    50%
+    {
+        transform:rotate(0deg);
+    }
+    75%
+    {
+        transform:rotate(60deg);
+    }
+    100%
+    {
+        transform:rotate(0deg);
+    }
+}
+
+@keyframes header-text
+{
+    0%
+    {
+        transform:rotate(0deg);
+    }
+
+    25%
+    {
+        transform:rotate(60deg);
+    }
+
+    50%
+    {
+        transform:rotate(0deg);
+    }
+
+    75%
+    {
+        transform:rotate(-60deg);
+    }
+    100%
+    {
+        transform:rotate(0deg);
+    }
+}
