@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: wheat;
+    background: linear-gradient(340deg, black 900px,rgba(16, 181, 193, 0.59));
+    animation-name: body-anime; 
+    animation-duration: 5s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    background-size: 400% 400%; /* Add this line */
+}
+
+
+.header
+{
+    border:2px solid royalblue;
+    height: fit-content;
+}
+
+
+.first-card
+{
+    border:2px double deeppink;
+    margin-top: 4vh;
+
+    border-radius: 4%;
+
+    width:fit-content;
+
+    box-shadow:0px 0px 7px 2px rgb(3, 173, 246);
+    
+    position: relative;
+    left:5%;
+
+    margin-right: 8vw;
+    
+}
+
+
+.introducing
+{
+    text-align: left;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aqua;
+
+    font-size:8vh;
+
+    font-style: italic;
+
+    margin:2vh;
+}
+
+
+.intro-paragraf
+{
+    text-align: left;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(13, 255, 0);
+
+    font-size:4vh;
+
+    font-style: italic;
+
+    margin:2vh;
+}
+
+@keyframes body-anime {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
