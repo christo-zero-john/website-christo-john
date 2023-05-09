@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: wheat;
-    background: linear-gradient(340deg, black 900px,rgba(16, 181, 193, 0.59));
+    background: linear-gradient(330deg, black 900px,rgb(2, 111, 98));
     animation-name: body-anime; 
     animation-duration: 5s; 
     animation-timing-function: linear; 
