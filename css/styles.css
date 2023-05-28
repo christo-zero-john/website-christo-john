@@ -554,6 +554,13 @@
     border:2px dotted aqua;
 }
 
+.half-border-1
+{
+    border-bottom:2px ridge white;
+    border-bottom-left-radius: 50%;
+
+    
+}
 
 
 .border-left-round
@@ -625,6 +632,11 @@
 }
 
 
+.hover-border-color-white:hover
+{
+    border-color: antiquewhite;
+}   
+
 /* border-radius */
 .border-radius-px-15
 {
@@ -647,11 +659,26 @@
     box-shadow:0px 0px 5px 2px rgb(103, 112, 7);
 }
 
+
+.hover-box-shadow-anime-1:hover
+{
+    animation:hover-box-shadow-anime-1 5s linear infinite;
+}
+
 /* hover-styles */
 .on-hover-opacity-half:hover
 {
-    background:linear-gradient(35deg,royalblue 10%,transparent 78%,rgb(143, 166, 188) 5%,rgba(3, 255, 247, 0.44));
-    color:g
+    background:linear-gradient(35deg,rgb(20, 23, 32) 10%,transparent 78%,rgb(92, 154, 211) 5%,rgba(3, 255, 247, 0.44));
+}
+
+.menu-item-on-hover-trasp-white-0-5:hover
+{
+    background:linear-gradient(35deg,rgba(255, 255, 255, 0.627) 10%,transparent 78%,rgb(92, 154, 211) 5%,rgba(3, 255, 247, 0.44));
+}
+
+.menu-item-on-hover-text-size-1-2em:hover
+{
+    font-size:1.2em;
 }
 
 /* object-size */
@@ -703,9 +730,33 @@
 /* scale */
 .scale-0-5
 {
-    scale: 0.89;
+    scale: 0.5;
 }
 
+.scale-1-5
+{
+    scale: 1.5;
+}
+
+.scale-2
+{
+    scale: 2;
+}
+
+.hover-scale-0-5:hover
+{
+    scale:0.5;
+}
+
+.hover-scale-1-5:hover
+{
+    scale:1.5;
+}
+
+.hover-scale-2:hover
+{
+    scale:2;
+}
 
 
 /* flex */
@@ -727,8 +778,74 @@
 }
 
 
+/* animations */
+@keyframes hover-box-shadow-anime-1
+{
+    0%
+    {
+        box-shadow:0px 0px 5px 1px white;
+        border-radius:0px;
+    }
+
+    10%
+    {
+        box-shadow:0px 0px 5px 1px rgb(255, 0, 0);
+    }
+
+    20%
+    {
+        box-shadow:0px 0px 5px 1px rgb(255, 242, 0);
+    }
+
+    30%
+    {
+        box-shadow:0px 0px 5px 1px rgb(21, 255, 0);
+        border-radius:15px;
+    }
+
+    40%
+    {
+        box-shadow:0px 0px 5px 1px rgb(0, 247, 255);
+    }
+    
+    50%
+    {
+        box-shadow:0px 0px 5px 1px rgb(0, 255, 229);
+        border-radius:0px;
+    }
+
+    60%
+    {
+        box-shadow:0px 0px 5px 1px rgb(123, 0, 255);
+    }
+
+    70%
+    {
+        box-shadow:0px 0px 5px 1px rgb(200, 0, 255);
+    }
+
+    80%
+    {
+        box-shadow:0px 0px 5px 1px rgb(255, 0, 64);
+        border-radius:15px;
+    }
+
+    90%
+    {
+        box-shadow:0px 0px 5px 1px rgb(0, 0, 0);
+    }
+
+    100%
+    {
+        box-shadow:0px 0px 5px 1px white;
+        border-radius:0px;
+    }
+    
+}
 
 
+
+/* Extras */
 
 
 
